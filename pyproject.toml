@@ -1,0 +1,17 @@
+[project]
+name = "metabrr"
+version = "0.1.0"
+description = "Random-effects meta-analytic Bayesian ridge regression"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "scikit-learn"]
+
+[project.optional-dependencies]
+sim = ["pandas", "matplotlib"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["metabrr"]
