@@ -1,0 +1,9 @@
+# Versions used to produce the results in docs/metaBRR.pdf
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+# simulation / plotting
+pandas==3.0.6
+matplotlib==3.11.2
+# tests
+pytest==9.1.1

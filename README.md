@@ -19,7 +19,7 @@ m.predict(X_new, groups_new)
 ## Reproduce
 
 ```bash
-python -m venv .venv && .venv/bin/pip install -e '.[sim,test]'
+python -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python -m pytest tests
 PYTHONPATH=. .venv/bin/python sim/simulate.py      # ~40 min on 12 cores
 .venv/bin/python sim/plot.py
